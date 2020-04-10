@@ -122,7 +122,7 @@
   				<version>2.2</version>
   				<configuration>
   				<url>http://localhost:8080/manager/text</url>
-  				<path>/wallah</path>
+  				<path>/pizzaspringtest</path>
   				<username>deployer</username>
   				<password>azerty</password>
   				<update>true</update>
