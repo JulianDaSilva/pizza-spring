@@ -10,7 +10,7 @@
 	<!-- précisez le nom et l'email de chaque membre de votre groupe -->
 	<developers>
 		<developer>
-			<name>David Gayerie</name>
+			<name>Julian Da Silva</name>
 			<email>VOTRE_EMAIL</email>
 		</developer>
 	</developers>
@@ -72,7 +72,7 @@
 		<dependency>
 			<groupId>mysql</groupId>
 			<artifactId>mysql-connector-java</artifactId>
-			<version>5.1.47</version>
+			<version>8.0.18</version>
 		</dependency>
 		<dependency>
 			<groupId>org.springframework</groupId>
@@ -92,6 +92,18 @@
 			<version>3.2.4</version>
 			<scope>test</scope>
 		</dependency>
+		
+		<dependency>
+        <groupId>org.seleniumhq.selenium</groupId>
+        <artifactId>selenium-chrome-driver</artifactId>
+        <version>3.141.59</version>
+        <scope>test</scope>
+    </dependency>
+    <dependency>
+            <groupId>org.seleniumhq.selenium</groupId>
+            <artifactId>selenium-support</artifactId>
+            <version>3.141.59</version>
+        </dependency>
 	</dependencies>
 	<build>
       	<plugins>
@@ -122,7 +134,7 @@
   				<version>2.2</version>
   				<configuration>
   				<url>http://localhost:8080/manager/text</url>
-  				<path>/pizzaspringtest</path>
+  				<path>/pizzaspring</path>
   				<username>deployer</username>
   				<password>azerty</password>
   				<update>true</update>
